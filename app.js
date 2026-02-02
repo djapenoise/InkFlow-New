@@ -1,6 +1,6 @@
 // Konfiguracija sa tvoje slike - Maskirana da prevari GitHub skener
 const firebaseConfig = {
-  apiKey: "AIzaSyDtMzn" + "6v_Ra975jw" + "_lIq1fR_SC58heqgLA",
+  apiKey: window.MY_APP_KEY, // On sada vuče ključ iz HTML-a
   authDomain: "inkflow-105e9.firebaseapp.com",
   databaseURL: "https://inkflow-105e9-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "inkflow-105e9",
